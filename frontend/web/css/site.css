@@ -1,0 +1,70 @@
+.circle-red {
+    width: 60px;
+    height: 60px;
+    border: 3px #f54646 solid;
+    -webkit-border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    color: #f54646;
+    font-size: 35px;
+}
+
+.circle-blue {
+    width: 60px;
+    height: 60px;
+    border: 3px #3090f0 solid;
+    -webkit-border-radius: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+    color: #3090f0;
+    font-size: 35px;
+}
+
+.wrap>.container {
+    padding: 70px 10px 0;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.btn-index {
+    height: 50px;
+}
+
+.online-num {
+    margin-bottom: 20px;
+}
+
+.input-group .message {
+    height: 50px; 
+    resize: none; 
+    font-size: 12px;
+}
+
+.feed {
+    margin-top: 10px;
+}
+
+.maxNum {
+    font: 26px/30px Georgia,  Tahoma, Arial;
+    padding: 0 5px;
+}
+
+.message {
+    height: 516px; 
+    overflow: auto;
+}
+
+.message::-webkit-scrollbar{
+    width: 0px;
+}
+
+.keyboard-wrapper {
+  height: 550px;
+  text-align: center;
+}
