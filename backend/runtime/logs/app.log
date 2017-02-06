@@ -1,0 +1,319 @@
+2017-01-22 09:30:38 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\LoginForm' not found' in D:\xampp\htdocs\ssq\backend\controllers\SiteController.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-01-22 09:30:38 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'tfqndjrr15tuvo3u2s5mje2ps7'
+    '_csrf-frontend' => '91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf\";}'
+    'advanced-backend' => 'r0tnpipb97mk3v02rg5rq3jje0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ssq/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=tfqndjrr15tuvo3u2s5mje2ps7; _csrf-frontend=91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf%22%3B%7D; advanced-backend=r0tnpipb97mk3v02rg5rq3jje0'
+    'PATH' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/ssq/backend/web/index.php'
+    'REMOTE_PORT' => '50944'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/ssq/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/ssq/backend/web/index.php'
+    'PHP_SELF' => '/ssq/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1485048638.351
+    'REQUEST_TIME' => 1485048638
+]
+2017-01-22 09:31:03 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\LoginForm' not found' in D:\xampp\htdocs\ssq\backend\controllers\SiteController.php:77
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-01-22 09:31:03 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'tfqndjrr15tuvo3u2s5mje2ps7'
+    '_csrf-frontend' => '91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf\";}'
+    'advanced-backend' => 'r0tnpipb97mk3v02rg5rq3jje0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ssq/backend/web/index.php?r=site/index'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=tfqndjrr15tuvo3u2s5mje2ps7; _csrf-frontend=91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf%22%3B%7D; advanced-backend=r0tnpipb97mk3v02rg5rq3jje0'
+    'PATH' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/ssq/backend/web/index.php'
+    'REMOTE_PORT' => '50957'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/ssq/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/ssq/backend/web/index.php'
+    'PHP_SELF' => '/ssq/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1485048663.169
+    'REQUEST_TIME' => 1485048663
+]
+2017-01-22 09:32:12 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\LoginForm' not found' in D:\xampp\htdocs\ssq\backend\controllers\SiteController.php:75
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-01-22 09:32:12 [::1][-][r0tnpipb97mk3v02rg5rq3jje0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'tfqndjrr15tuvo3u2s5mje2ps7'
+    '_csrf-frontend' => '91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf\";}'
+    'advanced-backend' => 'r0tnpipb97mk3v02rg5rq3jje0'
+    '_csrf-backend' => 'a15e558b8e1126f1a4fb38e3cb6f17ce22e08c6b8cea7f11a71bc13254c39166a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AHzvI8m9EJWttQwY2DPKAfDtX1NFidq5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ssq/backend/web/index.php?r=site/index'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/ssq/backend/web/index.php?r=site/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=tfqndjrr15tuvo3u2s5mje2ps7; _csrf-frontend=91f5863d93eeeb616939ad08ae0827be71ed8a0f2db4a9e0b08c41d08efa8afaa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22fzFKfJJfiLGoaLnkU1zpnqUoU6GoXYtf%22%3B%7D; advanced-backend=r0tnpipb97mk3v02rg5rq3jje0; _csrf-backend=a15e558b8e1126f1a4fb38e3cb6f17ce22e08c6b8cea7f11a71bc13254c39166a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AHzvI8m9EJWttQwY2DPKAfDtX1NFidq5%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/ssq/backend/web/index.php'
+    'REMOTE_PORT' => '51003'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/ssq/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/ssq/backend/web/index.php'
+    'PHP_SELF' => '/ssq/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1485048732.031
+    'REQUEST_TIME' => 1485048732
+]
+2017-02-06 08:49:50 [::1][-][rb7tcsrl20ic6iki7j6hn638v6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\LoginForm' not found' in D:\xampp\htdocs\ssq\backend\controllers\SiteController.php:75
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-06 08:49:50 [::1][-][rb7tcsrl20ic6iki7j6hn638v6][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_identity' => 'cb7f95fb00f29f73209a8f9e4485c3eedcdc1afdd5939ae7634fdbb245a27b8da:2:{i:0;s:9:\"_identity\";i:1;s:79:\"[\"7699b654bb01efe576d577fc0d687934\",\"IqOJ0iOKgNH0AHWecPc4-UcysPlUX5Hb\",2592000]\";}'
+    'advanced-frontend' => 'mh8gq5ec993ncom39c6cb6r4u3'
+    '_csrf-frontend' => 'fae89fc6f9dbf78efa14a4d9a629a31afda31a703c3d70abd94bfa4e0e1b6661a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"S7LUeT79rYgobBzTeYLFyMLj9YQiuDTb\";}'
+    'advanced-backend' => 'rb7tcsrl20ic6iki7j6hn638v6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ssq/backend/web/index.php?r=site'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_identity=cb7f95fb00f29f73209a8f9e4485c3eedcdc1afdd5939ae7634fdbb245a27b8da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A79%3A%22%5B%227699b654bb01efe576d577fc0d687934%22%2C%22IqOJ0iOKgNH0AHWecPc4-UcysPlUX5Hb%22%2C2592000%5D%22%3B%7D; advanced-frontend=mh8gq5ec993ncom39c6cb6r4u3; _csrf-frontend=fae89fc6f9dbf78efa14a4d9a629a31afda31a703c3d70abd94bfa4e0e1b6661a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22S7LUeT79rYgobBzTeYLFyMLj9YQiuDTb%22%3B%7D; advanced-backend=rb7tcsrl20ic6iki7j6hn638v6'
+    'PATH' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/ssq/backend/web/index.php'
+    'REMOTE_PORT' => '50332'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/ssq/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/ssq/backend/web/index.php'
+    'PHP_SELF' => '/ssq/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486342190.223
+    'REQUEST_TIME' => 1486342190
+]
+2017-02-06 08:49:52 [::1][-][rb7tcsrl20ic6iki7j6hn638v6][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'common\models\LoginForm' not found' in D:\xampp\htdocs\ssq\backend\controllers\SiteController.php:75
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-02-06 08:49:52 [::1][-][rb7tcsrl20ic6iki7j6hn638v6][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_identity' => 'cb7f95fb00f29f73209a8f9e4485c3eedcdc1afdd5939ae7634fdbb245a27b8da:2:{i:0;s:9:\"_identity\";i:1;s:79:\"[\"7699b654bb01efe576d577fc0d687934\",\"IqOJ0iOKgNH0AHWecPc4-UcysPlUX5Hb\",2592000]\";}'
+    'advanced-frontend' => 'mh8gq5ec993ncom39c6cb6r4u3'
+    '_csrf-frontend' => 'fae89fc6f9dbf78efa14a4d9a629a31afda31a703c3d70abd94bfa4e0e1b6661a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"S7LUeT79rYgobBzTeYLFyMLj9YQiuDTb\";}'
+    'advanced-backend' => 'rb7tcsrl20ic6iki7j6hn638v6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/ssq/backend/web/index.php?r=site'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_identity=cb7f95fb00f29f73209a8f9e4485c3eedcdc1afdd5939ae7634fdbb245a27b8da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A79%3A%22%5B%227699b654bb01efe576d577fc0d687934%22%2C%22IqOJ0iOKgNH0AHWecPc4-UcysPlUX5Hb%22%2C2592000%5D%22%3B%7D; advanced-frontend=mh8gq5ec993ncom39c6cb6r4u3; _csrf-frontend=fae89fc6f9dbf78efa14a4d9a629a31afda31a703c3d70abd94bfa4e0e1b6661a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22S7LUeT79rYgobBzTeYLFyMLj9YQiuDTb%22%3B%7D; advanced-backend=rb7tcsrl20ic6iki7j6hn638v6'
+    'PATH' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.21'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/ssq/backend/web/index.php'
+    'REMOTE_PORT' => '50333'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/ssq/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/ssq/backend/web/index.php'
+    'PHP_SELF' => '/ssq/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1486342192.681
+    'REQUEST_TIME' => 1486342192
+]

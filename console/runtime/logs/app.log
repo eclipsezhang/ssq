@@ -1,0 +1,80 @@
+2017-02-05 08:38:12 [-][-][-][error][yii\console\Exception] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: tools/update-winningunmbers' in D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('update-winningu...', Array)
+#1 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('update-winningu...', Array)
+#2 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('tools/update-wi...', Array)
+#3 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('tools/update-wi...', Array)
+#4 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 D:\xampp\htdocs\ssq\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\Exception' with message 'Unknown command "tools/update-winningunmbers".' in D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('tools/update-wi...', Array)
+#1 D:\xampp\htdocs\ssq\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 D:\xampp\htdocs\ssq\yii(27): yii\base\Application->run()
+#3 {main}
+2017-02-05 08:38:12 [-][-][-][info][application] $_SERVER = [
+    '#envTSLOGsss1760' => '62783072'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => 'Fri Sep  9 17:29:23 2016'
+    'ChocolateyToolsLocation' => 'C:\\tools'
+    'CLASSPATH' => 'C:\\Program Files\\Java\\jdk1.8.0_101\\lib'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'CJ-201606221431'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'C_INCLUDEDE_PATH' => 'D:\\MinGW\\mingw\\include'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'JAVA_HOME' => 'C:\\Program Files\\Java\\jdk1.8.0_101'
+    'LIBRARY_PATH' => 'D:\\MinGW\\mingw\\lib'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\CJ-201606221431'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\tools\\python2;C:\\Program Files\\Common Files\\Microsoft Shared\\Windows Live;D:\\xampp\\php;C:\\Users\\Administrator\\AppData\\Roaming\\npm;C:\\Program Files\\Java\\jdk1.8.0_101\\bin;D:\\MinGW\\mingw\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 69 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4501'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'CJ-201606221431'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'D:\\xampp\\htdocs\\ssq\\'
+    'PHP_SELF' => 'D:\\xampp\\htdocs\\ssq\\yii'
+    'SCRIPT_NAME' => 'D:\\xampp\\htdocs\\ssq\\yii'
+    'SCRIPT_FILENAME' => 'D:\\xampp\\htdocs\\ssq\\yii'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\ssq\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1486255092.5744
+    'REQUEST_TIME' => 1486255092
+    'argv' => [
+        0 => 'D:\\xampp\\htdocs\\ssq\\yii'
+        1 => 'tools/update-winningunmbers'
+    ]
+    'argc' => 2
+]
